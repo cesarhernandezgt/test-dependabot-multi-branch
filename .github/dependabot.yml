@@ -4,5 +4,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    target-branch: ["main","branch-2"]
+    target-branch: 
+              -"main"
+              -"branch-2"
     open-pull-requests-limit: 0 #This option has no impact on security updates, which have a separate, internal limit of ten open pull requests.
