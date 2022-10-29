@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    target-branch: "main" 
+    open-pull-requests-limit: 0 #This option has no impact on security updates, which have a separate, internal limit of ten open pull requests.
