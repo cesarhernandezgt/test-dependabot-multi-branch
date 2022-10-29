@@ -32,11 +32,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.1</version>
-            <scope>test</scope>
-        </dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13</version>
+    <scope>test</scope>
+</dependency>
+
           <!-- Addin on purpose log4j CVE-->
        <dependency>
         <groupId>org.apache.logging.log4j</groupId>
